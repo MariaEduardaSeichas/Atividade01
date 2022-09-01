@@ -5,6 +5,7 @@
     top: 300px;
     position:relative;
     display: flex;
+    float: left;
 }
 .bott{
     font-style:italic;
