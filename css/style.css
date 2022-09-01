@@ -3,7 +3,8 @@
     text-align: center;
     font-style:italic;
     top: 300px;
-    position: relative;
+    position:relative;
+    display: flex;
 }
 .bott{
     font-style:italic;
