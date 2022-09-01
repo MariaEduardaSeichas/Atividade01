@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" href="images/calc.png"/>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="manifest" href="manifest.json"/>
+    <meta name="theme-color" content="white" />
+     <!--viewport para designers responsivos (mobo), content é a configuração-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IMC</title>
+</head>
+<body class="corpo">
+    <div class="central">
+       <h1>Verificação dos pacientes</h1>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" />
+        
+        <label for="email">Idade:</label>
+        <input type="text" id="Idade" />
+    
+        <label for="sexo">Sexo:</label>
+        <input type="text" id="sexo" />
+
+        <label for="alt">Altura:</label>
+        <input type="text" id="altura" />
+
+        <label for="pes">Peso:</label>
+        <input type="text" id="peso" />
+
+        <button class="bott" onclick="calcularIMC()">Enviar</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

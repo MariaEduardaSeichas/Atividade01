@@ -1,0 +1,13 @@
+.central{
+    text-align: center;
+    font-style:italic;
+    top: 300px;
+    position: relative;
+}
+.bott{
+    font-style:italic;
+}
+
+.corpo{
+    background-color: #D8BFD8;
+}
